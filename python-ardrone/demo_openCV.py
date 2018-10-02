@@ -12,7 +12,7 @@ while running:
         cv2.imshow('frame', frame)
 	key = cv2.waitKey(1)
 	if (key != -1):
-        key = key & 0xFF 
+            key = key & 0xFF 
 		if key == 27: 
 		    # escape key pressed
 			running = False
