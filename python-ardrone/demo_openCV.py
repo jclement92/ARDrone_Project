@@ -41,6 +41,9 @@ while running:
 
 		else:
 		    print(key)
+	else:
+		print(drone.navdata.get(0, dict()))
+		
     else:
         # error reading frame
         print 'error reading video feed'
